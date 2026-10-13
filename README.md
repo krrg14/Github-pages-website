@@ -26,4 +26,7 @@ Created and deployed a static website using GitHub Pages as part of the Elevate 
 ## Outcome
 Successfully deployed a static website using GitHub Pages and learned the basics of Git-based website hosting.
 ---
-<img width="1775" height="968" alt="image" src="https://github.com/user-attachments/assets/479c2aad-d1d2-4097-9297-7362ef660921" />
+<img width="1775" height="968" alt="image" src="https://github.com/user-attachments/assets/479c2aad-d1d2-4097-9297-7362ef660921" /> 
+
+---
+<img width="1813" height="911" alt="image" src="https://github.com/user-attachments/assets/e9732f27-593f-43e1-8abe-ed4ffaeaa2f3" />
