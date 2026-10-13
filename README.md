@@ -20,8 +20,10 @@ Created and deployed a static website using GitHub Pages as part of the Elevate 
 - Verified the live website in a web browser.
 
 ## Project Links
-- **GitHub Repository:** ` `
-- **Live Website:** ` `
+- **GitHub Repository:** `https://github.com/krrg14/Github-pages-website/`
+- **Live Website:** `https://krrg14.github.io/Github-pages-website/`
 
 ## Outcome
 Successfully deployed a static website using GitHub Pages and learned the basics of Git-based website hosting.
+---
+<img width="1775" height="968" alt="image" src="https://github.com/user-attachments/assets/479c2aad-d1d2-4097-9297-7362ef660921" />
