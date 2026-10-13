@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>K R RAKSHITH GOWDA | Cloud & DevOps</title>
+    <meta name="description" content="K R Rakshith Gowda — Cloud & DevOps portfolio">
+    <style>
+      :root{--bg:#050812;--card:#0b1322;--line:#20324e;--txt:#eef6ff;--muted:#94a5bd;--cyan:#5be7ff;--violet:#9b7cff;--green:#65f2aa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 5%,#18305d 0,transparent 28%),radial-gradient(circle at 90% 20%,#28194c 0,transparent 25%),var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}nav{position:fixed;z-index:9;top:16px;left:50%;transform:translateX(-50%);width:min(1050px,92%);padding:12px 17px;border:1px solid #29405e;background:#07101ddd;backdrop-filter:blur(16px);border-radius:17px;display:flex;justify-content:space-between;box-shadow:0 15px 50px #0008}.logo{font-weight:900}.logo i{font-style:normal;color:var(--cyan)}nav span{display:flex;gap:20px;color:var(--muted);font-size:13px}nav span a:hover{color:#fff}.hero{min-height:100vh;display:grid;align-items:center;padding:125px 0 70px;position:relative}.grid{position:absolute;inset:0;background-image:linear-gradient(#fff5 1px,transparent 1px),linear-gradient(90deg,#fff5 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(#000,transparent 88%)}.heroGrid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}.k{color:var(--cyan);font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase}h1{font-size:clamp(48px,7vw,88px);line-height:.96;letter-spacing:-5px;margin:16px 0 24px}.grad{background:linear-gradient(90deg,var(--cyan),#fff 45%,var(--violet));color:transparent;background-clip:text}.lead{font-size:19px;color:var(--muted);max-width:700px}.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 16px;border-radius:12px;border:1px solid #29405e;background:#0d192a;font-weight:800}.primary{border:0;background:linear-gradient(135deg,var(--cyan),var(--violet));color:#06101a}.btn:hover{transform:translateY(-3px)}.terminal{border:1px solid #2c4665;background:#080f1a;border-radius:20px;padding:18px;box-shadow:0 25px 80px #0009;transform:rotate(2deg);animation:float 6s ease-in-out infinite}.dots i{display:inline-block;width:9px;height:9px;background:#30445e;border-radius:50%;margin-right:6px}.code{font:13px/1.9 ui-monospace,monospace;color:#b8c8dc;margin-top:14px}.c{color:#637895}.s{color:var(--green)}.v{color:var(--cyan)}@keyframes float{50%{transform:rotate(-1deg) translateY(-10px)}}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:30px}.stat{border:1px solid var(--line);border-radius:13px;padding:13px;background:#0b1422aa}.stat b{display:block;font-size:22px}.stat small{color:var(--muted)}section{padding:92px 0}.title{font-size:37px;letter-spacing:-1.5px;margin:0 0 8px}.sub{color:var(--muted);max-width:780px;margin:0 0 28px}.glass{border:1px solid var(--line);background:linear-gradient(145deg,#101b2c,#08111e);border-radius:20px;padding:24px}.about{display:grid;grid-template-columns:1fr 1fr;gap:18px}.glass p{color:var(--muted)}.pills{display:flex;flex-wrap:wrap;gap:8px}.pill{font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid #29405e;background:#0d1727;color:#bce8ff}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.filter{cursor:pointer;color:var(--muted);border:1px solid var(--line);background:#0b1422;border-radius:999px;padding:8px 12px}.filter.active,.filter:hover{color:#fff;border-color:#55708f}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#101a2b,#080f19);padding:23px;transition:.3s}.project:hover{transform:translateY(-6px);box-shadow:0 25px 70px #0007;border-color:#466487}.visual{height:105px;border-radius:13px;border:1px solid #29405e;background:radial-gradient(circle at 50% 10%,#5be7ff22,transparent 45%),#09121f;display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:17px}.node{padding:8px;border:1px solid #3a5577;border-radius:8px;background:#0e1a2a;font-size:10px}.arrow{color:var(--cyan)}.project h3{margin:10px 0 5px;font-size:21px}.project p{color:var(--muted);font-size:14px}.meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:17px}.repo{color:var(--cyan);font-size:12px;font-weight:900}.story{display:none;margin-top:14px;padding-top:13px;border-top:1px solid #1d2c43;color:#aebed2;font-size:13px}.story.open{display:block}.story li{margin:4px 0}.more{cursor:pointer;color:#bcd0e7;border:1px solid var(--line);background:#0b1422;border-radius:9px;padding:6px 8px;font-size:11px}.timeline{border-left:1px solid #2c4563;margin-left:10px;padding-left:25px;display:grid;gap:22px}.event{position:relative}.event:before{content:'';position:absolute;left:-32px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 20px #5be7ff}.event b{display:block}.event span{color:var(--muted);font-size:13px}.contact{text-align:center;border:1px solid #2b4160;border-radius:24px;padding:42px;background:radial-gradient(circle at 75% 20%,#9b7cff22,transparent 35%),#0b1421}.contact p{color:var(--muted);max-width:700px;margin:8px auto 20px}footer{text-align:center;color:#71839d;border-top:1px solid #152238;padding:32px;font-size:12px}.reveal{opacity:0;transform:translateY(20px);transition:.7s}.show{opacity:1;transform:none}@media(max-width:800px){nav span{display:none}.heroGrid,.about,.projects{grid-template-columns:1fr}.terminal{margin-top:10px}h1{letter-spacing:-3px}.stats{grid-template-columns:repeat(2,1fr)}}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="#">KR RAKSHITH<i> GOWDA</i>.cloud</a>
+      <span>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </span>
+    </nav>
+    <header class="hero">
+      </div>
+      <div class="wrap heroGrid">
+        <div class="reveal">
+          <div class="k">Cloud • DevOps • Automation</div>
+          <h2>I'm K R <span class="grad">RAKSHITH GOWDA.</span></h2>
+          <h1>I build <span class="grad">Cloud & DevOps systems</span> that are repeatable.</h1>
+          <p class="lead">I'm <b>K R Rakshith Gowda</b>, an aspiring Cloud & DevOps Engineer from Bengaluru. I learn by building AWS infrastructure, Terraform automation, containers, Kubernetes, CI/CD and Linux automation.</p>
+          <div class="btns">
+            <a class="btn primary" href="#projects">Explore projects ↓</a>
+            <a class="btn" href="https://github.com/krrg14" target="_blank">GitHub ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/krrg14" target="_blank">LinkedIn ↗</a>
+          </div> 
+          <div class="stats">
+            <div class="stat">
+              <b>12</b>
+              <small>repositories</small>
+            </div>
+            <div class="stat">
+              <b>4</b>
+              <small>stars</small>
+            </div>
+            <div class="stat">
+              <b>AWS</b>
+              <small>cloud focus</small>
+            </div>
+            <div class="stat">
+              <b>IaC</b>
+              <small>automation</small>
+            </div>
+          </div>
+        </div>
+        <div class="terminal reveal">
+          <div class="dots">
+            <i>
+            </i>
+            <i>
+            </i>
+            <i>
+            </i>
+          </div>
+          <div class="code">
+            <span class="c"># my engineering loop</span>
+            <br>cloud = <span class="s">"AWS"</span>
+            <br>iac = <span class="s">"Terraform"</span>
+            <br>containers = [<span class="s">"Docker"</span>, <span class="s">"Kubernetes"</span>]<br>cicd = [<span class="s">"Jenkins"</span>, <span class="s">"GitHub Actions"</span>]<br>ops = [<span class="s">"Linux"</span>, <span class="s">"Bash"</span>, <span class="s">"Python"</span>]<br>principle = <span class="v">"learn → build → automate"</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="about">
+      <div class="wrap reveal">
+        <h2 class="title">My engineering work, not just a poster.</h2>
+        <p class="sub">I am an aspiring Cloud & DevOps Engineer from Bengaluru. I learn by building and documenting projects with AWS, Docker, Kubernetes, Terraform, Linux, Jenkins, CI/CD, Shell Scripting, Helm and ArgoCD.</p>
+        <div class="about">
+          <div class="glass">
+            <h3>☁️ Cloud & serverless</h3>
+            <p>I built my Cloud Visitor project with S3, CloudFront, Route 53, API Gateway, Lambda, DynamoDB and IAM. I use Terraform to provision the S3 hosting infrastructure.</p>
+          </div>
+          <div class="glass">
+            <h3>⚙️ DevOps & operations</h3>
+            <p>I practice Jenkins CI/CD, GitHub Actions, Docker images, Helm, Kubernetes manifests and Linux automation scripts for backups, cleanup, health checks and log rotation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrap reveal">
+        <h2 class="title">Engineering toolkit</h2>
+        <p class="sub">The technologies I use while building, automating and improving my cloud projects.</p>
+        <div class="pills">
+          <span class="pill">AWS</span>
+          <span class="pill">EC2</span>
+          <span class="pill">S3</span>
+          <span class="pill">CloudFront</span>
+          <span class="pill">Route 53</span>
+          <span class="pill">API Gateway</span>
+          <span class="pill">Lambda</span>
+          <span class="pill">DynamoDB</span>
+          <span class="pill">IAM</span>
+          <span class="pill">CloudWatch</span>
+          <span class="pill">Terraform</span>
+          <span class="pill">Jenkins</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Kubernetes</span>
+          <span class="pill">Helm</span>
+          <span class="pill">GitHub Actions</span>
+          <span class="pill">Git</span>
+          <span class="pill">Linux</span>
+          <span class="pill">Bash</span>
+          <span class="pill">Python</span>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="wrap reveal">
+        <h2 class="title">Projects & build lab</h2>
+        <p class="sub">I use these projects to practice real cloud, DevOps, container and automation workflows.</p>
+        <div class="filters">
+          <button class="filter active" data-f="all">All</button>
+          <button class="filter" data-f="cloud">AWS / Cloud</button>
+          <button class="filter" data-f="devops">DevOps / CI/CD</button>
+          <button class="filter" data-f="containers">Containers / K8s</button>
+          <button class="filter" data-f="practice">Automation / Practice</button>
+        </div>
+        <div class="projects">
+          <div class="project" data-c="cloud">
+            <div class="visual">
+              <span class="node">CloudFront</span>
+              <b class="arrow">→</b>
+              <span class="node">S3</span>
+              <b class="arrow">→</b>
+              <span class="node">API</span>
+              <b class="arrow">→</b>
+              <span class="node">Lambda</span>
+            </div>
+            <span class="pill">AWS • Serverless</span>
+            <h3>Cloud Visitor Counter</h3>
+            <p>I built a static site on S3 with CloudFront, API Gateway, Lambda and DynamoDB powering a live visitor counter. I documented the architecture and Terraform provisioning in the repository.</p>
+            <div class="story">
+              <ul>
+                <li>CloudFront → S3 delivery</li>
+                <li>API Gateway → Lambda → DynamoDB</li>
+                <li>IAM and CloudWatch logging</li>
+                <li>Route 53 custom-domain work</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/cloud-visitor-project" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="cloud">
+            <div class="visual">
+              <span class="node">EC2</span>
+              <b class="arrow">→</b>
+              <span class="node">Budget</span>
+              <b class="arrow">→</b>
+              <span class="node">Lambda</span>
+              <b class="arrow">→</b>
+              <span class="node">Cleanup</span>
+            </div>
+            <span class="pill">AWS • Cost</span>
+            <h3>AWS Cost Optimization & Budget</h3>
+            <p>I practice cloud cost management and monitoring through EC2 usage analysis, budget planning and automation-oriented cleanup concepts.</p>
+            <div class="story">
+              <ul>
+                <li>EC2 and usage monitoring</li>
+                <li>AWS Budgets / Cost Explorer concepts</li>
+                <li>CloudWatch visibility</li>
+                <li>Serverless cleanup workflow</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/aws-cost-optimization-budget-plan" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="devops">
+            <div class="visual">
+              <span class="node">Git</span>
+              <b class="arrow">→</b>
+              <span class="node">Jenkins</span>
+              <b class="arrow">→</b>
+              <span class="node">Build</span>
+              <b class="arrow">→</b>
+              <span class="node">Deploy</span>
+            </div>
+            <span class="pill">Jenkins • CI/CD</span>
+            <h3>Jenkins CI/CD</h3>
+            <p>I use this repository to practice Jenkins CI/CD pipelines and understand the workflow behind automated application delivery.</p>
+            <div class="story">
+              <ul>
+                <li>Jenkins pipeline practice</li>
+                <li>Git-based source workflow</li>
+                <li>Automation-oriented delivery</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/jenkins-cicd" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="devops containers">
+            <div class="visual">
+              <span class="node">GitHub</span>
+              <b class="arrow">→</b>
+              <span class="node">Jenkins</span>
+              <b class="arrow">→</b>
+              <span class="node">Docker</span>
+              <b class="arrow">→</b>
+              <span class="node">K8s</span>
+            </div>
+            <span class="pill">Python • Docker • Kubernetes</span>
+            <h3>Containerized Chatbot CI/CD</h3>
+            <p>I containerized a Python chatbot with Docker, Kubernetes manifests, permissions and a Jenkinsfile. I also included deployment snapshots in the repository.</p>
+            <div class="story">
+              <ul>
+                <li>Python application</li>
+                <li>Dockerfile + requirements</li>
+                <li>Kubernetes manifests and permissions</li>
+                <li>Jenkinsfile and deployment evidence</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/chatbot-project" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="containers">
+            <div class="visual">
+              <span class="node">Dockerfile</span>
+              <b class="arrow">→</b>
+              <span class="node">Images</span>
+              <b class="arrow">→</b>
+              <span class="node">Apps</span>
+            </div>
+            <span class="pill">Docker</span>
+            <h3>Multi-runtime Docker Images</h3>
+            <p>I use this containerization lab to build Django, Node.js, Python, Go and Java Spring Boot application examples.</p>
+            <div class="story">
+              <ul>
+                <li>Multiple application runtimes</li>
+                <li>Dockerfile practice</li>
+                <li>Image-building fundamentals</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/All-Docker-images" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="containers">
+            <div class="visual">
+              <span class="node">Docker</span>
+              <b class="arrow">→</b>
+              <span class="node">Helm</span>
+              <b class="arrow">→</b>
+              <span class="node">K8s</span>
+            </div>
+            <span class="pill">Helm • Kubernetes</span>
+            <h3>Helm Deployment Lab</h3>
+            <p>I packaged a Python application with Docker and practice Helm commands for Kubernetes deployment workflows.</p>
+            <div class="story">
+              <ul>
+                <li>Dockerized Python app</li>
+                <li>Helm command reference</li>
+                <li>Kubernetes packaging concepts</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/helm-repo" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="devops practice">
+            <div class="visual">
+              <span class="node">Push</span>
+              <b class="arrow">→</b>
+              <span class="node">Actions</span>
+              <b class="arrow">→</b>
+              <span class="node">Workflow</span>
+            </div>
+            <span class="pill">GitHub Actions</span>
+            <h3>GitHub Actions Practice</h3>
+            <p>I use a Python application, Dockerfile and GitHub Actions workflow to practice CI automation.</p>
+            <div class="story">
+              <ul>
+                <li>.github/workflows practice</li>
+                <li>Python + Docker</li>
+                <li>CI automation fundamentals</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/Github_action_practice_repo" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="practice">
+            <div class="visual">
+              <span class="node">backup.sh</span>
+              <b class="arrow">+</b>
+              <span class="node">health</span>
+              <b class="arrow">+</b>
+              <span class="node">cleanup</span>
+            </div>
+            <span class="pill">Linux • Bash</span>
+            <h3>Linux Scripting Automation</h3>
+            <p>I write Linux and Bash scripts for backups, cleanup, health checks, combined tasks and log rotation.</p>
+            <div class="story">
+              <ul>
+                <li>backup.sh</li>
+                <li>cleanup.sh</li>
+                <li>health_check.sh</li>
+                <li>log_rotation.sh</li>
+                <li>combine-scripting.sh</li>
+              </ul>
+            </div>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/scripting_automation" target="_blank">Repository ↗</a>
+              <button class="more">Technical story</button>
+            </div>
+          </div>
+          <div class="project" data-c="practice">
+            <div class="visual">
+              <span class="node">GitHub</span>
+              <b class="arrow">→</b>
+              <span class="node">Profile</span>
+              <b class="arrow">→</b>
+              <span class="node">Portfolio</span>
+            </div>
+            <span class="pill">GitHub</span>
+            <h3>Developer Profile</h3>
+            <p>My GitHub profile repository presents my Cloud & DevOps interests, skills and goals, and serves as the profile linked from this portfolio.</p>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/krrg14" target="_blank">Profile repository ↗</a>
+            </div>
+          </div>
+          <div class="project" data-c="practice">
+            <div class="visual">
+              <span class="node">Practice</span>
+              <b class="arrow">→</b>
+              <span class="node">HTML</span>
+              <b class="arrow">→</b>
+              <span class="node">Learning</span>
+            </div>
+            <span class="pill">Practice</span>
+            <h3>Cloud & DevOps Practice Lab</h3>
+            <p>I use this supporting repository for experimentation and learning, keeping practice work separate from my focused projects.</p>
+            <div class="meta">
+              <a class="repo" href="https://github.com/krrg14/practice-repo" target="_blank">Repository ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="journey">
+      <div class="wrap reveal">
+        <h2 class="title">My project progression</h2>
+        <p class="sub">I organize my repositories as a learning journey, showing how I have grown from scripting to cloud automation.</p>
+        <div class="timeline">
+          <div class="event">
+            <b>01 — Linux & scripting</b>
+            <span>I started with operational fundamentals: backups, cleanup, health checks and log rotation.</span>
+          </div>
+          <div class="event">
+            <b>02 — Containers</b>
+            <span>I built Docker images across multiple runtimes and application types.</span>
+          </div>
+          <div class="event">
+            <b>03 — Kubernetes & Helm</b>
+            <span>I moved containers into Kubernetes orchestration and Helm packaging workflows.</span>
+          </div>
+          <div class="event">
+            <b>04 — CI/CD</b>
+            <span>I use Jenkins and GitHub Actions to build repeatable delivery automation.</span>
+          </div>
+          <div class="event">
+            <b>05 — AWS & serverless</b>
+            <span>I built an end-to-end S3, CloudFront, API Gateway, Lambda and DynamoDB architecture for my Cloud Visitor Counter.</span>
+          </div>
+          <div class="event">
+            <b>06 — Cost awareness</b>
+            <span>I apply monitoring, budgets and automation to improve my AWS cost awareness.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrap reveal">
+        <div class="contact">
+          <div class="k">Open to opportunities</div>
+          <h2 class="title">Let's build something reliable.</h2>
+          <p>I am looking for junior Cloud, DevOps and Cloud Infrastructure opportunities where I can troubleshoot, automate and grow through real engineering work.</p>
+          <div class="btns" style="justify-content:center">
+            <a class="btn primary" href="https://github.com/krrg14" target="_blank">Explore GitHub ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/krrg14" target="_blank">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>© <span id="year"></span> K R RAKSHITH GOWDA</footer>
+    <script>
+      const observer = new IntersectionObserver(
+        entries => entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        }),
+        { threshold: 0.1 }
+      );
+
+      document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      document.querySelectorAll('.filter').forEach(button => {
+        button.onclick = () => {
+          document.querySelectorAll('.filter').forEach(element => element.classList.remove('active'));
+          button.classList.add('active');
+
+          const filter = button.dataset.f;
+          document.querySelectorAll('.project').forEach(project => {
+            project.style.display = filter === 'all' || project.dataset.c.includes(filter) ? 'block' : 'none';
+          });
+        };
+      });
+
+      document.querySelectorAll('.more').forEach(button => {
+        button.onclick = () => {
+          const story = button.closest('.project').querySelector('.story');
+          story.classList.toggle('open');
+          button.textContent = story.classList.contains('open') ? 'Hide story' : 'Technical story';
+        };
+      });
+    </script>
+</body>
+</html>
